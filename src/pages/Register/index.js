@@ -9,7 +9,7 @@ function Register() {
 	const history = useHistory();
 
 	if (localStorage.getItem("x-user-id")) {
-		history.push("/appointments");
+		window.location="/appointments";
 	}
 
 	const onSubmit = async (values) => {
@@ -19,7 +19,7 @@ function Register() {
 			notification.success({
 				message: "Registered successfully",
 			});
-			history.push("/appointments/create");
+			window.location="/appointments/create";
 		} else {
 			notification.error({
 				message: "Error",
