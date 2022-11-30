@@ -169,16 +169,22 @@ function BasicForm({
 				</Form.Item>
 				<Form.Item name="location" label="Location">
 					<Select placeholder="Select Location">
-						<Option value="Boston">Boston</Option>
-						<Option value="Houston">Houston</Option>
+					<Option value="Arkansas">Arkansas</Option>
+						<Option value="Chicago">Chicago</Option>
 						<Option value="Florida">Florida</Option>
-						<Option value="Hawaii">Hawaii</Option>
+						<Option value="Ohio">Ohio</Option>
+						<Option value="Oklahoma">Oklahoma</Option>
+						<Option value="Overland park">Overland park</Option>
+						<Option value="Saint Louis">Saint Louis</Option>
 					</Select>
 				</Form.Item>
 				<Form.Item name="appointmentType" label="Appointment Type">
 					<Select placeholder="Select appointment type">
 						<Option value="General Checkup">General Checkup</Option>
 						<Option value="ENT">ENT</Option>
+						<Option value="Cardiology">Cardiology</Option>
+						<Option value="Gynechology">Gynechology</Option>
+						<Option value="Dermatology">Dermatology</Option>
 						<Option value="Opthamology">Opthamology</Option>
 						<Option value="Pulmonology">Pulmonology</Option>
 					</Select>
