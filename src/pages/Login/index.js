@@ -27,7 +27,7 @@ function Login() {
 				backgroundImage: `url(${require("../../login.jpeg")})`,
 				display: "flex",
 				flexDirection: "column",
-				height: "100%",
+				height: "100vh"
 			}}
 		>
 			<div

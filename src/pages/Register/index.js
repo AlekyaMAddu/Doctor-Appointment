@@ -33,7 +33,7 @@ function Register() {
 				backgroundImage: `url(${require("../../login.jpeg")})`,
 				display: "flex",
 				flexDirection: "column",
-				height: "100%",
+				height: "100%"
 			}}
 		>
 			<div
