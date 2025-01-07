@@ -6,6 +6,7 @@ On successful login/registration user can input the required details to book an 
 The patient will have the provision to Edit/ Cancel the appointment whenever needed. On cancellation of the appointment, the  Patient receives the appointment canceled confirmation in the mail given while booking the appointment. 
 
 **Tech Stack**
+
 Front End
 React JS
 CSS for Styling
