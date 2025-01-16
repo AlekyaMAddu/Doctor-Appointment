@@ -10,7 +10,8 @@ The patient will have the provision to Edit/ Cancel the appointment whenever nee
 Front End
 React JS
 CSS for Styling
-Backend
+
+**Backend**
 Java SpringBoot
 DataBase
 MYSQL
